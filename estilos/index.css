@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: "GrifoTesteL-Bold";
+    src: url("../imagenes/fuentes/GrifoTesteL-Bold.otf");
+}
+@font-face{
+    font-family: "Textos";
+    src: url("../imagenes/fuentes/AticaTest-Medium.otf");
+}
+@font-face {
+    font-family:"Parrafos";
+    src: url("../imagenes/fuentes/AticaTest-Regular.otf");
+}
+@-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  
+body { 
+    background: url("../imagenes/Frame\ 17.png") ;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+  }
+ 
+.navsections{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 59px;
+    padding-left: 963px;
+    padding-right: 75px;
+    gap: 21px;    
+}
+
+.navsections a {
+    color: white;
+    font-family: "Textos";
+    font-size: 32px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+
+.compo {
+    width: 80%;
+    max-width: 682px;
+    margin: 0 auto;
+    margin-top: 98px;
+}
+.titulo{
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    color: white;
+    text-align: left;
+    padding-top: 50px;    
+    -webkit-animation: tracking-in-expand 2.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 2.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+	
+h1{
+    font-family: "GrifoTesteL-Bold";    
+    font-size: 130px;
+
+}  
+h2{
+    font-family: "Textos";
+    font-size: 36px;
+    text-align: right;
+}
+.iconosredes {
+    display: flex;
+    justify-content: center;
+    margin-top: 124px;
+    gap: 40px;
+
+}
+.imgprojects{
+    width: 30%;
+    max-width: 132px;
+    
+}
+.cardproject{
+    margin-left: 72px;
+    display: flex;
+    /* margin: 0 auto; */
+    margin-top: 200px;
+    color: #ffffff;
+    width: 75%;
+    gap: 20px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    /* margin-top: 200px; */
+    align-items: center;
+    overflow-y: hidden;
+    box-shadow: 0px 3.27962px 3.27962px rgba(0, 0, 0, 0.25), 0px 3.54872px 3.54872px rgba(0, 0, 0, 0.25);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(231, 231, 231, 0.1); 
+}
+.textoscard{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    font-family: "Textos";
+    font-size: 40px;
+    margin-top: 24px;
+    
+}
+p{
+    font-family: "Parrafos";
+    font-size: 24px;
+    margin-top: 24px;
+
+}
+
+.button-rigth {
+    margin-top: 24px;
+    text-align: left;
+}
+
+
+.botoncard {
+    display: inline-block;
+    border-radius: 16px;
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding: 12px;
+    width: 210px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: "Parrafos";
+    
+  }
+  
+  .botoncard span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .botoncard span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .botoncard:hover span {
+    padding-right: 25px;
+  }
+  
+  .botoncard:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .todas {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .todaslascards{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 150px;
+    
+}
+h4{
+    font-family: "Textos";
+    font-size: 40px;
+  
+}
+.aboutme{
+    margin-top: 100px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+
+
+}
+#parrafoaboutme{
+    font-family: "Parrafos";
+    font-size: 36px;
+
+}
+.fotopedro{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+h4 a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+.contacto{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.copyright{
+display: flex;
+justify-content: center;
+padding-bottom: 40px;
+color: #ffffff;
+}
+.mobile-content{
+    display: none; 
+    gap: 40px;
+    margin-bottom: 400px;
+    color: #ffffff;
+}
+.mobile-content h1{
+    font-size: 20px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+.mobile-content h2{    
+    font-size: 28px;
+}
+
+@media (max-width: 768px) {
+    .mobile-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .desktop-content {
+      display: none;
+    }
+  }
+ 
