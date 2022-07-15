@@ -102,6 +102,14 @@ h2{
     gap: 40px;
 
 }
+.iconosredes a{
+  transition: all .2s ease-in-out; 
+
+}
+.iconosredes a:hover{
+  transform: scale(1.3); 
+
+}
 .imgprojects{
     width: 30%;
     max-width: 132px;
@@ -277,4 +285,5 @@ color: #ffffff;
       display: none;
     }
   }
+
  
