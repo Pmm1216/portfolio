@@ -207,7 +207,7 @@ p{
   .todas {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 0px;
   }
   .todaslascards{
     display: flex;
@@ -238,7 +238,11 @@ h4{
 .fotopedro{
     display: flex;
     justify-content: center;
-    padding-bottom: 100px;
+    padding-bottom: 100px;  
+}
+.fotopedro img{
+  border-radius: 12px;
+  width: 20%;
 }
 h4 a{
     text-decoration: none;
@@ -250,7 +254,7 @@ h4 a{
     justify-content: center;
     gap: 24px;
     margin-bottom: 100px;
-    margin-top: 50px;
+    margin-top: 200px;
 }
 .copyright{
 display: flex;
